@@ -7,32 +7,58 @@ class Home extends BaseController
     public function index(): string
     {
         $data = [
-            'name'     => 'Juan Dela Cruz',
-            'title'    => 'Aspiring Web Developer',
-            'about'    => 'I am a student learning CodeIgniter 4 and building my first portfolio.',
-            'email'    => 'ramber@gmail.com',
-            'github'   => 'https://github.com/ramber322',
-            'skills'   => ['React', 'PHP', 'Javascript', 'MySQL'],
-            'projects' => [
+            'name'    => 'Ramber, Abdul Malik P.',
+            'title'   => 'Web Developer',
+            'contact' => [
+                'email'    => 'ramber@gmail.com',
+                'phone'    => '+63 912 345 6789',
+                'address'  => 'Philippines',
+                'github'   => 'https://github.com/ramber322',
+                'linkedin' => 'https://linkedin.com/in/ramber322',
+            ],
+            'personal' => [
+                'Date of Birth' => 'January 1, 2003',
+                'Nationality'   => 'Filipino',
+                'Languages'     => 'English, Filipino',
+            ],
+            'objective' => 'To find work as a web developer and continue learning through projects.',
+            'education' => [
                 [
-                    'title' => 'Portfolio Website',
-                    'desc'  => 'This very page, built with CodeIgniter 4.',
-                    'link'  => '#'
+                    'school' => 'St Peters College',
+                    'degree' => 'BS in Information Technology',
+                    'year'   => '2022 - Present',
                 ],
                 [
-                    'title' => 'To-Do List App',
-                    'desc'  => 'A simple CRUD app to practice MVC.',
-                    'link'  => '#'
+                    'school' => 'Corpus Christi Parochial School of Iligan',
+                    'degree' => 'Senior High School',
+                    'year'   => '2020 - 2022',
+                ],
+               
+            ],
+            'skills' => [
+                'Frontend' => ['React', 'JavaScript', 'HTML', 'CSS'],
+                'Backend'  => ['PHP', 'CodeIgniter 4', 'Laravel'],
+                'Tools'    => ['Git', 'Figma'],
+            ],
+            'projects' => [
+                [
+                    'title' => 'Movie App',
+                    'desc'  => 'Fetches movies from a public API.',
+                    'link'  => '#',
+                ],
+                [
+                    'title' => 'Grocery App',
+                    'desc'  => 'Grocery list application built with React.',
+                    'link'  => '#',
                 ],
                 [
                     'title' => 'Weather Dashboard',
                     'desc'  => 'Fetches weather from a public API.',
-                    'link'  => 'https://github.com/pish123'
+                    'link'  => 'https://github.com/pish123',
                 ],
             ],
         ];
 
-        //Pass data to the view
         return view('welcome_message', $data);
     }
 }
