@@ -51,9 +51,6 @@
                         <span class="year"><?= esc($edu['year']) ?></span>
                     </div>
                     <div class="entry-sub"><?= esc($edu['degree']) ?></div>
-                    <?php if (!empty($edu['notes'])): ?>
-                        <div class="entry-notes"><?= esc($edu['notes']) ?></div>
-                    <?php endif; ?>
                 </div>
             <?php endforeach; ?>
         </section>
