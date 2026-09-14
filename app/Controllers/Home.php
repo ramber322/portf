@@ -18,8 +18,9 @@ class Home extends BaseController
             ],
             'personal' => [
                 'Date of Birth' => 'January 1, 2003',
-                'Nationality'   => 'Filipino',
-                'Languages'     => 'English, Filipino',
+                'Place of Birth'     => 'Iligan, Philippines',
+                'Sex at Birth'     => 'Male',
+                'Citizenship'   => 'Filipino',
             ],
             'objective' => 'To find work as a web developer and continue learning through projects.',
             'education' => [
@@ -33,12 +34,17 @@ class Home extends BaseController
                     'degree' => 'Senior High School',
                     'year'   => '2020 - 2022',
                 ],
+                  [
+                    'school' => 'South 1-A Central School',
+                    'degree' => 'Elementary School',
+                    'year'   => '2010 - 2016',
+                ],
                
             ],
             'skills' => [
                 'Frontend' => ['React', 'JavaScript', 'HTML', 'CSS'],
                 'Backend'  => ['PHP', 'CodeIgniter 4', 'Laravel'],
-                'Tools'    => ['Git', 'Figma'],
+                'Tools'    => ['Git', 'Figma', 'VS Code'],
             ],
             'projects' => [
                 [

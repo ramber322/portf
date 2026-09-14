@@ -43,7 +43,7 @@
 
       
         <section>
-            <h2>Education</h2>
+            <h2>Educational Background</h2>
             <?php foreach ($education as $edu): ?>
                 <div class="entry">
                     <div class="entry-header">
@@ -76,7 +76,7 @@
                     <h3><?= esc($project['title']) ?></h3>
                     <p><?= esc($project['desc']) ?></p>
                     <a href="<?= esc($project['link']) ?>" target="_blank" rel="noopener">
-                        View Project →
+                        View Project 
                     </a>
                 </div>
             <?php endforeach; ?>
