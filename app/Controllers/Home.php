@@ -27,7 +27,7 @@ class Home extends BaseController
     'full_personal' => [
         'Surname'          => 'Ramber',
         'First Name'       => 'Abdul Malik',
-        'Middle Name'      => 'Pacquiao',
+        'Middle Name'      => 'Putin',
         'Name Extension'   => 'N/A',
         'Date of Birth'    => '1/1/2003',
         'Place of Birth'   => 'Iligan, Philippines',
