@@ -43,6 +43,7 @@ class Home extends BaseController
         'Telephone No.'    => '(02) 8123-4567',
         'Mobile No.'       => '0917-123-4567',
         'Email'            => 'ramber123@gmail.com',
+        'Civil Service Eligibility' => 'Career Service Professional',
     ],
     'education' => [
         [
