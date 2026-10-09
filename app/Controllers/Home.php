@@ -10,7 +10,7 @@ class Home extends BaseController
     'name'    => 'Ramber, Abdul Malik P.',
     'title'   => 'Web Developer',
     'tagline' => '4th Year BS-IT student looking forward to work as web developer.',
-    'photo' => 'images/profile-private.png',
+    'photo' => 'images/profile-icon.png',
     'contact' => [
         'email'    => 'ramber@gmail.com',
         'phone'    => '+63 912 345 6789',

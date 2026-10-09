@@ -52,7 +52,6 @@
     <section id="about" class="section">
         <h2 class="section-title">Personal Information</h2>
 
-        <!-- default personal info-->
         <dl class="info-grid">
             <?php foreach ($personal as $label => $value): ?>
                 <dt><?= esc($label) ?></dt>
@@ -60,12 +59,10 @@
             <?php endforeach; ?>
         </dl>
 
-        <!-- toggle hidden personal info -->
         <button class="btn btn-outline btn-toggle" data-toggle="full-pds">
             View Full Details
         </button>
 
-        <!--  full personal info card-->
         <div id="full-pds" class="full-pds" hidden>
             <dl class="info-grid">
                 <?php foreach ($full_personal as $label => $value): ?>
